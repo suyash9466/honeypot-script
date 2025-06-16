@@ -1,0 +1,24 @@
+A. Change Hardcoded Paths
+CONFIG = {
+    'geoip_path': r'C:\xampp\geoip\GeoLite2-City.mmdb',
+    'admin_db_path': r'C:\xampp\logs\admin_attacks.db',
+    'log_dir': r'C:\xampp\logs\admin',
+    'admin_block_threshold': 2 
+}
+What to change:
+
+Update these paths based on where you place files in your system (Linux, XAMPP folder, etc.)
+Summary for Others (Add in README or Docs)
+If you are using this project:
+
+1. Set your paths in CONFIG correctly
+
+2. Create a fake admin page that sends login attempts to honeypot.py
+
+3. Make sure Python has permission to modify firewall (run as Admin)
+
+4. Install dependencies via pip install -r requirements.txt
+
+5. Download and place GeoLite2-City.mmdb properly
+
+6. That's it – attacker IPs will be logged and blocked automatically!
