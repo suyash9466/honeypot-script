@@ -1,0 +1,42 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+    background-color: #3b3b3b;
+}
+
+.Login{
+    display: block;
+    margin-top: 20vh;
+    border: aqua solid;
+    border-radius: 10px;
+    height: auto;
+    width: 400px;
+    padding: 2%;
+    justify-items: left;
+}
+.Login h2{
+    color: white;
+    margin-left: 13vh;
+}
+.input{
+    border: aqua solid;
+    background-color: transparent;
+    margin: 1%;
+    height: 3vh;
+    width: 30vh;
+}
+.input::placeholder{
+    color: white;
+}
+
+.sub-btn{
+    background-color: green;
+    border-radius: 10px;
+    font-size: large;
+}
+.sub-btn:hover{
+    background-color: lightgreen;
+}
+
