@@ -16,6 +16,7 @@ A Python-based honeypot tool to detect and block suspicious admin login attempts
 -  Writes security alerts to log file
 
 ## Folder Structure
+
 project/
 ├── honeypot.py # Main script
 ├── requirements.txt # Required Python packages
